@@ -3,8 +3,8 @@ import type { Rules } from '@signal-fall/data';
 import { money } from '../game/names';
 
 /** Where CI publishes the latest balance run (see the `balance` job in .github/workflows/ci.yml). */
-export const BALANCE_URL = 'https://raw.githubusercontent.com/PavlikPolivka/signal-fall/balance-data/balance.json';
-const REPO = 'https://github.com/PavlikPolivka/signal-fall';
+export const BALANCE_URL = 'https://raw.githubusercontent.com/polivkadev/signal-fall/balance-data/balance.json';
+const REPO = 'https://github.com/polivkadev/signal-fall';
 
 interface Side {
   faction: string;

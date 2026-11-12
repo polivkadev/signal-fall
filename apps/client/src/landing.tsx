@@ -14,7 +14,7 @@ import { FACTION_LORE } from './ui/lore';
 
 const BASE = import.meta.env.BASE_URL;
 const PLAY = `${BASE}play/`;
-const REPO = 'https://github.com/PavlikPolivka/signal-fall';
+const REPO = 'https://github.com/polivkadev/signal-fall';
 
 const FACTIONS = [
   { id: 'holdout', name: 'Holdout', unit: 'bulldog', shot: 'base-holdout', color: '#c98a3a' },

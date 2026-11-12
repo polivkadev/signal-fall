@@ -10,7 +10,7 @@ A TypeScript monorepo built around one deterministic, headless simulation packag
 
 ### Stack
 
-TypeScript (strict), pnpm workspaces, Vite, PixiJS v8 for the game world, Preact for UI panels, Vitest for unit tests, Playwright for browser smoke tests, zod for data schemas. Pin exact versions in the lockfile. Repository: git@github.com:PavlikPolivka/signal-fall.git, public from day one, code under the MIT license (assets keep their own licenses, tracked in LICENSES.json). No secrets in the repo: the Supabase anon key is public by design and protected by RLS, the TURN shared secret lives in Edge Function secrets, and deploy tokens live in GitHub Actions secrets.
+TypeScript (strict), pnpm workspaces, Vite, PixiJS v8 for the game world, Preact for UI panels, Vitest for unit tests, Playwright for browser smoke tests, zod for data schemas. Pin exact versions in the lockfile. Repository: git@github.com:polivkadev/signal-fall.git, public from day one, code under the MIT license (assets keep their own licenses, tracked in LICENSES.json). No secrets in the repo: the Supabase anon key is public by design and protected by RLS, the TURN shared secret lives in Edge Function secrets, and deploy tokens live in GitHub Actions secrets.
 
 ### Packages
 
